@@ -1,2 +1,2 @@
-# NemoLib-
+# NemoLib++
 Network Motif Library C++ 

@@ -1,0 +1,178 @@
+## -*- Makefile -*-
+##
+## User: wkim
+## Time: Dec 11, 2017 3:55:11 PM
+## Makefile created by Oracle Developer Studio.
+##
+## This file is generated automatically.
+##
+
+
+#### Compiler and tool definitions shared by all build targets #####
+CC = gcc
+CCC = g++
+CXX = g++
+BASICOPTS = -O
+CFLAGS = $(BASICOPTS)
+CCFLAGS = $(BASICOPTS) -std=c++11
+CXXFLAGS = $(BASICOPTS) -std=c++11
+CCADMIN = 
+
+
+# Define the target directories.
+TARGETDIR_libnemostaticlib.a=D:\GoogleDrive\wooyoung-working\Project\NemoLibCpp
+
+
+all: $(TARGETDIR_libnemostaticlib.a)/libnemostaticlib.a
+
+## Target: libnemostaticlib.a
+CPPFLAGS_libnemostaticlib.a = \
+	-IESU.cpp \
+	-IGraph.cpp \
+	-INautyLink.cpp \
+	-IRandESU.cpp \
+	-IRandomGraphAnalysis.cpp \
+	-IRandomGraphGenerator.cpp \
+	-IStatisticalAnalysis.cpp \
+	-ISubgraph.cpp \
+	-ISubgraphCount.cpp \
+	-ISubgraphProfile.cpp \
+	-Inauty\gtools.c \
+	-Inauty\naugraph.c \
+	-Inauty\naurng.c \
+	-Inauty\nausparse.c \
+	-Inauty\nautil.c \
+	-Inauty\nautinv.c \
+	-Inauty\naututil.c \
+	-Inauty\nauty.c \
+	-Inauty\schreier.c \
+	-Inauty\sorttemplates.c
+OBJS_libnemostaticlib.a =  \
+	$(TARGETDIR_libnemostaticlib.a)/ESU.o \
+	$(TARGETDIR_libnemostaticlib.a)/Graph.o \
+	$(TARGETDIR_libnemostaticlib.a)/NautyLink.o \
+	$(TARGETDIR_libnemostaticlib.a)/RandESU.o \
+	$(TARGETDIR_libnemostaticlib.a)/RandomGraphAnalysis.o \
+	$(TARGETDIR_libnemostaticlib.a)/RandomGraphGenerator.o \
+	$(TARGETDIR_libnemostaticlib.a)/StatisticalAnalysis.o \
+	$(TARGETDIR_libnemostaticlib.a)/Subgraph.o \
+	$(TARGETDIR_libnemostaticlib.a)/SubgraphCount.o \
+	$(TARGETDIR_libnemostaticlib.a)/SubgraphProfile.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\gtools.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\naugraph.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\naurng.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\nausparse.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\nautil.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\nautinv.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\naututil.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\nauty.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\schreier.o \
+	$(TARGETDIR_libnemostaticlib.a)/nauty\sorttemplates.o
+
+
+# Link or archive
+ARCPP = $(AR) $(ARFLAGS) $@ 
+$(TARGETDIR_libnemostaticlib.a)/libnemostaticlib.a: $(TARGETDIR_libnemostaticlib.a) $(OBJS_libnemostaticlib.a)
+	$(ARCPP) $(OBJS_libnemostaticlib.a)
+
+
+# Compile source files into .o files
+$(TARGETDIR_libnemostaticlib.a)/ESU.o: $(TARGETDIR_libnemostaticlib.a) ESU.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ ESU.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/Graph.o: $(TARGETDIR_libnemostaticlib.a) Graph.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ Graph.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/NautyLink.o: $(TARGETDIR_libnemostaticlib.a) NautyLink.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ NautyLink.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/RandESU.o: $(TARGETDIR_libnemostaticlib.a) RandESU.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ RandESU.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/RandomGraphAnalysis.o: $(TARGETDIR_libnemostaticlib.a) RandomGraphAnalysis.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ RandomGraphAnalysis.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/RandomGraphGenerator.o: $(TARGETDIR_libnemostaticlib.a) RandomGraphGenerator.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ RandomGraphGenerator.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/StatisticalAnalysis.o: $(TARGETDIR_libnemostaticlib.a) StatisticalAnalysis.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ StatisticalAnalysis.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/Subgraph.o: $(TARGETDIR_libnemostaticlib.a) Subgraph.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ Subgraph.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/SubgraphCount.o: $(TARGETDIR_libnemostaticlib.a) SubgraphCount.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ SubgraphCount.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/SubgraphProfile.o: $(TARGETDIR_libnemostaticlib.a) SubgraphProfile.cpp
+	$(COMPILE.cc) $(CCFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ SubgraphProfile.cpp
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\gtools.o: $(TARGETDIR_libnemostaticlib.a) nauty\gtools.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\gtools.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\naugraph.o: $(TARGETDIR_libnemostaticlib.a) nauty\naugraph.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\naugraph.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\naurng.o: $(TARGETDIR_libnemostaticlib.a) nauty\naurng.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\naurng.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\nausparse.o: $(TARGETDIR_libnemostaticlib.a) nauty\nausparse.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\nausparse.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\nautil.o: $(TARGETDIR_libnemostaticlib.a) nauty\nautil.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\nautil.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\nautinv.o: $(TARGETDIR_libnemostaticlib.a) nauty\nautinv.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\nautinv.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\naututil.o: $(TARGETDIR_libnemostaticlib.a) nauty\naututil.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\naututil.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\nauty.o: $(TARGETDIR_libnemostaticlib.a) nauty\nauty.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\nauty.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\schreier.o: $(TARGETDIR_libnemostaticlib.a) nauty\schreier.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\schreier.c
+
+$(TARGETDIR_libnemostaticlib.a)/nauty\sorttemplates.o: $(TARGETDIR_libnemostaticlib.a) nauty\sorttemplates.c
+	$(COMPILE.c) $(CFLAGS_libnemostaticlib.a) $(CPPFLAGS_libnemostaticlib.a) -o $@ nauty\sorttemplates.c
+
+
+
+#### Clean target deletes all generated files ####
+clean:
+	rm -f \
+		$(TARGETDIR_libnemostaticlib.a)/libnemostaticlib.a \
+		$(TARGETDIR_libnemostaticlib.a)/ESU.o \
+		$(TARGETDIR_libnemostaticlib.a)/Graph.o \
+		$(TARGETDIR_libnemostaticlib.a)/NautyLink.o \
+		$(TARGETDIR_libnemostaticlib.a)/RandESU.o \
+		$(TARGETDIR_libnemostaticlib.a)/RandomGraphAnalysis.o \
+		$(TARGETDIR_libnemostaticlib.a)/RandomGraphGenerator.o \
+		$(TARGETDIR_libnemostaticlib.a)/StatisticalAnalysis.o \
+		$(TARGETDIR_libnemostaticlib.a)/Subgraph.o \
+		$(TARGETDIR_libnemostaticlib.a)/SubgraphCount.o \
+		$(TARGETDIR_libnemostaticlib.a)/SubgraphProfile.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\gtools.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\naugraph.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\naurng.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\nausparse.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\nautil.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\nautinv.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\naututil.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\nauty.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\schreier.o \
+		$(TARGETDIR_libnemostaticlib.a)/nauty\sorttemplates.o
+	$(CCADMIN)
+	rm -f -r $(TARGETDIR_libnemostaticlib.a)
+
+
+# Create the target directory (if needed)
+$(TARGETDIR_libnemostaticlib.a):
+	mkdir -p $(TARGETDIR_libnemostaticlib.a)
+
+
+# Enable dependency checking
+.KEEP_STATE:
+.KEEP_STATE_FILE:.make.state.GNU-amd64-Linux
+

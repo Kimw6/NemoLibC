@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ESU.h</itemPath>
+      <itemPath>Graph.h</itemPath>
+      <itemPath>NautyLink.h</itemPath>
+      <itemPath>RandESU.h</itemPath>
+      <itemPath>RandomGraphAnalysis.h</itemPath>
+      <itemPath>RandomGraphGenerator.h</itemPath>
+      <itemPath>StatisticalAnalysis.h</itemPath>
+      <itemPath>Subgraph.h</itemPath>
+      <itemPath>SubgraphCount.h</itemPath>
+      <itemPath>SubgraphEnumerationResult.h</itemPath>
+      <itemPath>SubgraphProfile.h</itemPath>
+      <itemPath>graph64.hpp</itemPath>
+      <itemPath>nauty/gtools.h</itemPath>
+      <itemPath>nauty/naurng.h</itemPath>
+      <itemPath>nauty/nausparse.h</itemPath>
+      <itemPath>nauty/nautinv.h</itemPath>
+      <itemPath>nauty/naututil.h</itemPath>
+      <itemPath>nauty/nauty.h</itemPath>
+      <itemPath>nauty/schreier.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ESU.cpp</itemPath>
+      <itemPath>Graph.cpp</itemPath>
+      <itemPath>NautyLink.cpp</itemPath>
+      <itemPath>RandESU.cpp</itemPath>
+      <itemPath>RandomGraphAnalysis.cpp</itemPath>
+      <itemPath>RandomGraphGenerator.cpp</itemPath>
+      <itemPath>StatisticalAnalysis.cpp</itemPath>
+      <itemPath>Subgraph.cpp</itemPath>
+      <itemPath>SubgraphCount.cpp</itemPath>
+      <itemPath>SubgraphProfile.cpp</itemPath>
+      <itemPath>nauty/gtools.c</itemPath>
+      <itemPath>nauty/naugraph.c</itemPath>
+      <itemPath>nauty/naurng.c</itemPath>
+      <itemPath>nauty/nausparse.c</itemPath>
+      <itemPath>nauty/nautil.c</itemPath>
+      <itemPath>nauty/nautinv.c</itemPath>
+      <itemPath>nauty/naututil.c</itemPath>
+      <itemPath>nauty/nauty.c</itemPath>
+      <itemPath>nauty/schreier.c</itemPath>
+      <itemPath>nauty/sorttemplates.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="New C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/newsimpletest.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/libnemostaticlib.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="ESU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ESU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NautyLink.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NautyLink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandESU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandESU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGraphAnalysis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGraphAnalysis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGraphGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGraphGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatisticalAnalysis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatisticalAnalysis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Subgraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Subgraph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SubgraphCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphEnumerationResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphProfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SubgraphProfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="graph64.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/gtools.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/gtools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/naugraph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naurng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naurng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nausparse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nausparse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nautil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nautinv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nautinv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/naututil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naututil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nauty.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nauty.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/schreier.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/schreier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/sorttemplates.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/newsimpletest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="ESU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ESU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NautyLink.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NautyLink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandESU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandESU.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGraphAnalysis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGraphAnalysis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGraphGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGraphGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatisticalAnalysis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatisticalAnalysis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Subgraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Subgraph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SubgraphCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphEnumerationResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SubgraphProfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SubgraphProfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="graph64.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/gtools.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/gtools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/naugraph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naurng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naurng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nausparse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nausparse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nautil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nautinv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nautinv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/naututil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/naututil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/nauty.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/nauty.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/schreier.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nauty/schreier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nauty/sorttemplates.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/newsimpletest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

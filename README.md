@@ -2,8 +2,8 @@
 Network Motif Library C++ 
 
 # DOI
-https://zenodo.org/badge/173347013.svg
-https://zenodo.org/badge/latestdoi/173347013
+* https://zenodo.org/badge/173347013.svg
+* https://zenodo.org/badge/latestdoi/173347013
 
 # Linux installation
 * Download the NemoStaticLib.zip
